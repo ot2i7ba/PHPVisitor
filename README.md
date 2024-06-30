@@ -44,6 +44,9 @@ include_once 'path/to/visitors.php';
 
 Ensure you replace 'path/to/visitors.php' with the actual path to the visitors.php file.
 
+## Purpose
+I needed a simple logger for a project, and this is the result. It's nothing groundbreaking, but it's practical for my local projects. Feel free to use and modify it for your own needs.
+
 ## Security
 The script ensures that the logs directory is protected by creating a .htaccess file to deny direct access via the browser. Ensure your web server supports .htaccess files and is configured to respect these settings.
 
