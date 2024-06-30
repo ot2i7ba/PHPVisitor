@@ -40,6 +40,7 @@ Include the script in your PHP files where you want to track visitors:
 <?php
 include_once 'path/to/visitors.php';
 ?>
+```
 
 Ensure you replace 'path/to/visitors.php' with the actual path to the visitors.php file.
 
