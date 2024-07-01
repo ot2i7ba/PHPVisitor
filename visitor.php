@@ -10,7 +10,7 @@
 
 namespace VisitorTracker;
 
-define(__NAMESPACE__ . '\\LOG_FILE_NAME', 'visitors.json');
+define(__NAMESPACE__ . '\\LOG_FILE_NAME', 'visitor.json');
 define(__NAMESPACE__ . '\\NOTIFICATION', true);
 define(__NAMESPACE__ . '\\EMAIL_TO', 'your-email@example.com');
 define(__NAMESPACE__ . '\\EMAIL_CC_ENABLED', true); // Enable or disable CC notification
@@ -18,7 +18,7 @@ define(__NAMESPACE__ . '\\EMAIL_CC', 'cc-email@example.com');
 define(__NAMESPACE__ . '\\EMAIL_SUBJECT', 'New Visitor Alert');
 define(__NAMESPACE__ . '\\EMAIL_MESSAGE', 'A new visitor has accessed the site.');
 define(__NAMESPACE__ . '\\EMAIL_FROM', 'sender-email@example.com'); // Define sender email
-define(__NAMESPACE__ . '\\LOG_DIR', __DIR__ . '/logs'); // Directory for visitors.json
+define(__NAMESPACE__ . '\\LOG_DIR', __DIR__ . '/logs'); // Directory for visitor.json
 define(__NAMESPACE__ . '\\RATE_LIMIT', 100); // Maximum requests per hour
 define(__NAMESPACE__ . '\\RATE_LIMIT_WINDOW', 3600); // Time window in seconds (1 hour)
 
