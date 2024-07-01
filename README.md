@@ -13,14 +13,14 @@ A simple PHP script to log visitor information and send notifications when a vis
 ## Installation
 
 1. Clone the repository or download the script.
-2. Place the `visitors.php` file in your desired directory on your web server.
+2. Place the `visitor.php` file in your desired directory on your web server.
 3. Ensure the directory where you place the script has write permissions.
 
 ## Configuration
 
-Open `visitors.php` and configure the following constants as needed:
+Open `visitor.php` and configure the following constants as needed:
 
-- `LOG_FILE_NAME`: Name of the log file (default: `visitors.json`)
+- `LOG_FILE_NAME`: Name of the log file (default: `visitor.json`)
 - `NOTIFICATION`: Enable or disable email notifications (default: `true`)
 - `EMAIL_TO`: Email address to send notifications to
 - `EMAIL_CC_ENABLED`: Enable or disable CC notifications (default: `true`)
@@ -34,15 +34,15 @@ Open `visitors.php` and configure the following constants as needed:
 
 ## Usage
 
-Include the script in your PHP files where you want to track visitors:
+Include the script in your PHP files where you want to track visitor:
 
 ```php
 <?php
-include_once 'path/to/visitors.php';
+include_once 'path/to/visitor.php';
 ?>
 ```
 
-Ensure you replace 'path/to/visitors.php' with the actual path to the visitors.php file.
+Ensure you replace 'path/to/visitor.php' with the actual path to the visitor.php file.
 
 ## Security
 The script ensures that the logs directory is protected by creating a .htaccess file to deny direct access via the browser. Ensure your web server supports .htaccess files and is configured to respect these settings.
@@ -54,7 +54,7 @@ The script includes a custom error handler that logs errors and displays a user-
 I needed a simple logger for a project, and this is the result. It's nothing groundbreaking, but it's practical for my local projects. Feel free to use and modify it for your own needs.
 
 ## License
-This project is licensed under the **[MIT license](https://github.com/ot2i7ba/PHPVisitors/blob/main/LICENSE)**, providing users with flexibility and freedom to use and modify the software according to their needs.
+This project is licensed under the **[MIT license](https://github.com/ot2i7ba/PHPvisitor/blob/main/LICENSE)**, providing users with flexibility and freedom to use and modify the software according to their needs.
 
 ## Disclaimer
 This project is provided without warranties. Users are advised to review the accompanying license for more information on the terms of use and limitations of liability.
