@@ -1,4 +1,4 @@
-# Visitor Tracker
+# PHP Visitor Tracker
 
 A simple PHP script to log visitor information and send notifications when a visitor accesses your site. The script stores visitor data in a JSON file and optionally sends email notifications.
 
