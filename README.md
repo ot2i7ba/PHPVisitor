@@ -1,9 +1,6 @@
 # PHP Visitor Tracker
 A simple PHP script to log visitor information and send notifications when a visitor accesses your site. The script stores visitor data in a JSON file and optionally sends email notifications.
 
-> [!CAUTION]
-> This project is based on the original repository by [ot2i7ba](https://github.com/ot2i7ba).
-
 ## Features
 
 - Logs visitor information (IP address, visit date, time, user agent, referrer URL, visit duration)
@@ -55,9 +52,13 @@ The script includes a custom error handler that logs errors and displays a user-
 ## Purpose
 I needed a simple logger for a project, and this is the result. It's nothing groundbreaking, but it's practical for my local projects. Feel free to use and modify it for your own needs.
 
+> [!CAUTION]
+> This project is based on the original repository by [ot2i7ba](https://github.com/ot2i7ba).
+
 ## License
 This project is licensed under the **[MIT license](https://github.com/ot2i7ba/PHPvisitor/blob/main/LICENSE)**, providing users with flexibility and freedom to use and modify the software according to their needs.
 
 ## Disclaimer
 This project is provided without warranties. Users are advised to review the accompanying license for more information on the terms of use and limitations of liability.
+
 
